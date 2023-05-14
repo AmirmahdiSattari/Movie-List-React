@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+.myFont{
+  font-family:  'Lilita One', cursive !important;
+  font-style: italic;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal .modalBox {
+  background-color: rgb(217, 217, 217);
+  width: 50%;
+  height: 40%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 50px solid rgb(217, 217, 217);
+  box-shadow: inset 0px 0px 0px 1px gray;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top:-80px;
+  padding:20px;
+  gap:20px;
+
+}
+p {
+  text-align: center;
+  vertical-align: middle;
+}
+closebutton {
+  border: none;
+  background-color: rgb(217, 217, 217);
+  color: gray;
+}
+
+span {
+  font-weight: bolder;
+  color: gray;
+}
+
